@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ën">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=deice-width, initial-scale=1.0">
+        <title>Smaks Secondary School</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <h1>SMAKS SECONDARY SCHOOL</h1>
+                <P><strong>vision:</strong>Building the future generation</P>
+                <p><strong>MOTTO:</strong>Winners never quit,but quitters never win</p>
+            </div>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#about">About us</a></li>
+                <li><a href="#registration">Online Registration</a></li>
+                <li><a href="#contact">Contact us</a></li>
+        
+            </ul>
+        </nav>
+        <section action="registration" class="container">
+            <h2>Online Registration</h2>
+            <form action="registration.php" method="post">
+                <label for="name">student name</label>
+                <input type="text" id="name" name="name" placeholder="Enter full name" required><br>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email address" required><br>
+                <label for="grade">Grade</label>
+                <select id="grade" name="grade" required>
+                    <option value="">select grade</option>
+                    <option value="grade-1">Grade 1</option>
+                    <option value="grade-2">Grade 2</option>
+                    <option value="grade-3">Grade 3</option>
+                    <option value="grade-4">Grade 4</option>
+                    <option value="grade-5">Grade 5</option>
+                    <option value="grade>5">Grade>5</option>
+                </select>
+                <button type="submit" >Register</button>
+            </form>
+        </section>
+        <footer>
+            <hr><p>&copy; 2024 Smaks Sec sch.All rights reserved</p>
+            <hr>
+        </footer>
+        
+    </body>
+</html>
